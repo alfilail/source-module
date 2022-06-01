@@ -1,5 +1,5 @@
 package sourcemodule
 
-func PrintWord(word string) string {
-	return word
+func PrintWord(word, name string) string {
+	return word + " " + name
 }
